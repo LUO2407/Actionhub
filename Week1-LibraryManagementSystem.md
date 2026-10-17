@@ -3,8 +3,8 @@ Week 1
 
 | Member | Assigned Tasks |
 | :--- | :--- |
-| **Thùy trâm** | Research and do the System Context and Objectives (define operational context, system scope, and core objectives).Design Draft UML Class Diagram (specify core classes, attributes, operations, and relationships).Review formatting and ensure cross-consistency between the UML Class Diagram and CRC cards. |
-| **Lê Thiện Luân** | Author Section II: Syllabus Mapping (align course learning outcomes with project deliverables).Construct Section III.2: Set of 5 CRC Cards (define responsibilities and collaborations for 5 key classes).Develop Section IV: Minimum Test Plan (establish testing scope, core test cases, and validation criteria). |
+| **Thùy trâm** | Research and do the Syllabus Mapping (align course learning outcomes with project deliverables).Design Draft UML Class Diagram (specify core classes, attributes, operations, and relationships).Review formatting and ensure cross-consistency between the UML Class Diagram and CRC cards. |
+| **Lê Thiện Luân** | Research and do the System Context and Objectives (define operational context, system scope, and core objectives).Construct Set of 5 CRC Cards (define responsibilities and collaborations for 5 key classes).Develop Minimum Test Plan (establish testing scope, core test cases, and validation criteria). |
 
 
 ## **I. System context and objectives**
