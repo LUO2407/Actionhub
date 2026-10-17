@@ -7,7 +7,7 @@
 | **Lê Thiện Luân** | Research and construct Set of 5 CRC Cards (define responsibilities and collaborations for 5 key classes).Develop Minimum Test Plan (establish testing scope, core test cases, and validation criteria). |
 
 
-## **I. SYLLABUS MAPPING(Thùy Trâm)**
+## **I. SYLLABUS MAPPING**
 
 | Core OOP Concept | Specific Class & Method Applied (To be detailed in Self-Explanation) | Design Purpose & Technical Solution |
 | :---- | :---- | :---- |
@@ -15,8 +15,7 @@
 | **Inheritance** | - PhysicalBook : LibraryItem<br>- EBook : LibraryItem | Inherits and reuses common attributes (Id, Title, Author, IsAvailable). Extends domain-specific attributes (ShelfLocation, ISBN, FileSizeMB). |
 | **Polymorphism** | - Base class: LibraryItem.CalculateOverdueFee(int days) (abstract)<br>- Subclasses: override CalculateOverdueFee(...) | Implements differentiated overdue fee calculation:<br>+ Physical books incur 5,000 VND/day<br>+ E-books never expire / incur 0 VND penalty |
 
-## **II. DRAFT UML DIAGRAM AND CRC CARDS**
-### **1. Draft UML Class Diagram**
+## **II. Draft UML Class Diagram**
 
 ```text
                        +--------------------------------------------------------------+
@@ -70,8 +69,7 @@
 | + DisplayInfo() : void                |
 +---------------------------------------+
 ```
-
-### **2. Set of 5 CRC cards (Class-Responsibility-Collaboration)**
+## **III. Set of 5 CRC cards **
 
 | Class | Responsibilities | Collaborations |
 | :---- | :---- | :---- |
@@ -83,7 +81,7 @@
 
 ---
 
-## **III. MINIMUM TEST PLAN**
+## **IV. MINIMUM TEST PLAN**
 
 In accordance with the **Minimum Test Cases** requirements:
 
