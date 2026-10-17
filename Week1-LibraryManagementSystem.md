@@ -23,7 +23,6 @@ The Library Management System is built using C# to manage a diverse catalog of l
 ### **1. Draft UML Class Diagram**
 
 
-```text
                        +--------------------------------------------------------------+
                        |                  <<abstract>> LibraryItem                    |
                        +--------------------------------------------------------------+
