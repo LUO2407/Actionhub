@@ -7,6 +7,13 @@ Week 1
 | **Lê Thiện Luân** | Author Section II: Syllabus Mapping (align course learning outcomes with project deliverables).Construct Section III.2: Set of 5 CRC Cards (define responsibilities and collaborations for 5 key classes).Develop Section IV: Minimum Test Plan (establish testing scope, core test cases, and validation criteria). |
 
 
+I. System context and objectives
+The Library Management System is built using C# to manage a diverse catalog of library materials (physical books and e-books), manage member information, and oversee the entire borrow–return lifecycle, including handling overdue items and calculating late return penalties.
+II. SYLLABUS MAPPING
+Core OOP Concept	Specific Class & Method Applied (To be detailed in Self-Explanation)	Design Purpose & Technical Solution
+Encapsulation	- LibraryItem: MarkAsBorrowed(), MarkAsReturned() - Member: IncrementBorrowed(), DecrementBorrowed() - Loan: CompleteReturn()	Protects internal state Sets private set for all sensitive properties Forbids external code from directly overwriting fields
+Inheritance	- PhysicalBook : LibraryItem - EBook : LibraryItem	Inherits and reuses common attributes (Id, Title, Author, IsAvailable) Extends domain-specific attributes (ShelfLocation, ISBN, FileSizeMB).
+Polymorphism	- Base class: LibraryItem.CalculateOverdueFee(int days) (abstract) - Subclasses: override CalculateOverdueFee(...)	Implements differentiated overdue fee calculation:  +Physical books incur 5,000 VND/day +E-books never expire / incur 0 VND penalty
 
 
 ### **1. Draft UML Class Diagram**
