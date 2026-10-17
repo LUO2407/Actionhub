@@ -91,6 +91,12 @@ In accordance with the **Minimum Test Cases** requirements:
 | **2. Validation / Error Rejection** | **Scenario A:** Member M001 attempts to borrow B001 while IsAvailable == false<br>**Scenario B:** Member M002 currently holding 3 items attempts to borrow a 4th | - **Scenario A:** Throws InvalidOperationException: Item is already borrowed; no new Loan created<br>- **Scenario B:** Throws InvalidOperationException: Member limit exceeded (Max 3); item state remains unchanged |
 | **3. Polymorphism / Inheritance Verification** | - Both overdue by 5 days<br>- Loan 1: LibraryItem is a PhysicalBook<br>- Loan 2: LibraryItem is an EBook | - Loan 1: item.CalculateOverdueFee(5) returns 25,000 VND<br>- Loan 2: item.CalculateOverdueFee(5) returns 0 VND |
 
+| Member | Assigned Tasks |
+| --- | --- |
+| **Thùy Trâm** | Cài đặt hệ thống phân cấp tài liệu: lớp trừu tượng `LibraryItem` cùng 2 lớp kế thừa `PhysicalBook` và `EBook`, áp dụng Đa hình cho phương thức `CalculateOverdueFee`.Xây dựng chức năng tìm kiếm tài liệu theo Tiêu đề, Tác giả và mã ISBN bằng cấu trúc dữ liệu phù hợp.Thiết kế và hiện thực hóa giao diện dòng lệnh (CLI Menu) để trình diễn toàn bộ vòng đời mượn - trả sách end-to-end.Soạn thảo phần Self-Explanation cho nguyên lý Kế thừa (Inheritance) và Đa hình (Polymorphism) gắn với mã nguồn thực tế.
+
+ |
+| **Lê Thiện Luân** | Cài đặt các thực thể nghiệp vụ `Member` và `Loan`, áp dụng nguyên lý Đóng gói để kiểm soát trạng thái và quy tắc mượn tài liệu (hạn mức tối đa 3 cuốn, thời hạn 14 ngày).Xây dựng tầng lưu trữ dữ liệu bền vững `FileService` (đọc/ghi file JSON hoặc văn bản) đảm bảo duy trì trạng thái hệ thống giữa các phiên chạy.Lập trình và thực thi mã kiểm thử cho bộ Minimum Test Cases (Happy Path, Bắt lỗi vi phạm, và Kiểm chứng hành vi Đa hình) kèm xuất log kết quả thực thi.Soạn thảo phần Self-Explanation cho nguyên lý Đóng gói (Encapsulation) và phụ trách tổng hợp Báo cáo Tuần 2.
 
 
 
