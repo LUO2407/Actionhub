@@ -22,7 +22,7 @@ The Library Management System is built using C# to manage a diverse catalog of l
 ## **III. DRAFT UML DIAGRAM AND CRC CARDS**
 ### **1. Draft UML Class Diagram**
 
-
+```text
                        +--------------------------------------------------------------+
                        |                  <<abstract>> LibraryItem                    |
                        +--------------------------------------------------------------+
@@ -73,7 +73,7 @@ The Library Management System is built using C# to manage a diverse catalog of l
 | + ToDataString() : string             |
 | + DisplayInfo() : void                |
 +---------------------------------------+
-
+```
 
 ### **2. Set of 5 CRC cards (Class-Responsibility-Collaboration)**
 
