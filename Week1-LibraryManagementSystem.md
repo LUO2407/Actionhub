@@ -1,3 +1,6 @@
+Week 1
+
+
 | Member | Assigned Tasks |
 | :--- | :--- |
 | **Thùy trâm** | Research and do the System Context and Objectives (define operational context, system scope, and core objectives).Design Draft UML Class Diagram (specify core classes, attributes, operations, and relationships).Review formatting and ensure cross-consistency between the UML Class Diagram and CRC cards. |
