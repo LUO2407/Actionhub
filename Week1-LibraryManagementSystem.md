@@ -1,6 +1,6 @@
 | Member | Assigned Tasks |
 | :--- | :--- |
-| **Thùy trâm** | <ul><li>Author Section I: System Context and Objectives (define operational context, scope, and core goals).Design Section III.1: Draft UML Class Diagram (specify classes, attributes, methods, and relationships).Review formatting and ensure consistency between the Class Diagram and CRC cards.</li></ul> |
+| **Thùy trâm** | <li>Author Section I: System Context and Objectives (define operational context, scope, and core goals).Design Section III.1: Draft UML Class Diagram (specify classes, attributes, methods, and relationships).Review formatting and ensure consistency between the Class Diagram and CRC cards.</li> |
 | **Lê Thiện Luân** | <ul><li>Construct the core `Graph` class using an Adjacency List representation supporting both directed and undirected graphs.</li><li>Implement the Iterative DFS algorithm using an explicit `std::stack` (strictly avoiding recursion) and integrate Cycle Detection.</li><li>Write Unit Tests replicating the Week-1 DFS hand-trace, verify back-edges, and export execution test output evidence.</li><li>Draft the mathematical proof for Iterative DFS time and space complexity $O(V + E)$.</li><li>Author individual Teach-back section: provide a line-level code explanation and state the loop invariant for the explicit stack.</li></ul> |
 
 
