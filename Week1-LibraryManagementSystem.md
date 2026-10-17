@@ -3,15 +3,11 @@ Week 1
 
 | Member | Assigned Tasks |
 | :--- | :--- |
-| **Thùy trâm** | Research and do the Syllabus Mapping (align course learning outcomes with project deliverables).Design Draft UML Class Diagram (specify core classes, attributes, operations, and relationships).Review formatting and ensure cross-consistency between the UML Class Diagram and CRC cards. |
-| **Lê Thiện Luân** | Research and do the System Context and Objectives (define operational context, system scope, and core objectives).Construct Set of 5 CRC Cards (define responsibilities and collaborations for 5 key classes).Develop Minimum Test Plan (establish testing scope, core test cases, and validation criteria). |
+| **Thùy trâm** | Research and do the Syllabus Mapping (align course learning outcomes with project deliverables).Design Draft UML Class Diagram (specify core classes, attributes, operations, and relationships).|
+| **Lê Thiện Luân** | Research and construct Set of 5 CRC Cards (define responsibilities and collaborations for 5 key classes).Develop Minimum Test Plan (establish testing scope, core test cases, and validation criteria). |
 
 
-## **I. System context and objectives**
-
-The Library Management System is built using C# to manage a diverse catalog of library materials (physical books and e-books), manage member information, and oversee the entire borrow–return lifecycle, including handling overdue items and calculating late return penalties.
-
-## **II. SYLLABUS MAPPING**
+## **I. SYLLABUS MAPPING**
 
 | Core OOP Concept | Specific Class & Method Applied (To be detailed in Self-Explanation) | Design Purpose & Technical Solution |
 | :---- | :---- | :---- |
@@ -19,7 +15,7 @@ The Library Management System is built using C# to manage a diverse catalog of l
 | **Inheritance** | - PhysicalBook : LibraryItem<br>- EBook : LibraryItem | Inherits and reuses common attributes (Id, Title, Author, IsAvailable). Extends domain-specific attributes (ShelfLocation, ISBN, FileSizeMB). |
 | **Polymorphism** | - Base class: LibraryItem.CalculateOverdueFee(int days) (abstract)<br>- Subclasses: override CalculateOverdueFee(...) | Implements differentiated overdue fee calculation:<br>+ Physical books incur 5,000 VND/day<br>+ E-books never expire / incur 0 VND penalty |
 
-## **III. DRAFT UML DIAGRAM AND CRC CARDS**
+## **II. DRAFT UML DIAGRAM AND CRC CARDS**
 ### **1. Draft UML Class Diagram**
 
 ```text
@@ -87,7 +83,7 @@ The Library Management System is built using C# to manage a diverse catalog of l
 
 ---
 
-## **IV. MINIMUM TEST PLAN**
+## **III. MINIMUM TEST PLAN**
 
 In accordance with the **Minimum Test Cases** requirements:
 
