@@ -1,6 +1,5 @@
 ### **1. Draft UML Class Diagram**
 
-#### **a. Sơ đồ dạng văn bản (ASCII Class Diagram)**
 
 ```text
                        +--------------------------------------------------------------+
