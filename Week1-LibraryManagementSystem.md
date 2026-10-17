@@ -1,7 +1,7 @@
 | Member | Assigned Tasks |
 | :--- | :--- |
-| **Thùy trâm** | |
-| **Lê Thiện Luân** |  |
+| **Thùy trâm** | Author Section I: System Context and Objectives (define operational context, system scope, and core objectives).Design Section III.1: Draft UML Class Diagram (specify core classes, attributes, operations, and relationships).Review formatting and ensure cross-consistency between the UML Class Diagram and CRC cards. |
+| **Lê Thiện Luân** | Author Section II: Syllabus Mapping (align course learning outcomes with project deliverables).Construct Section III.2: Set of 5 CRC Cards (define responsibilities and collaborations for 5 key classes).Develop Section IV: Minimum Test Plan (establish testing scope, core test cases, and validation criteria). |
 
 
 
