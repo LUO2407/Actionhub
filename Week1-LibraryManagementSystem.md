@@ -1,4 +1,4 @@
-Week 1
+**Week 1**
 
 
 | Member | Assigned Tasks |
@@ -7,7 +7,7 @@ Week 1
 | **Lê Thiện Luân** | Research and construct Set of 5 CRC Cards (define responsibilities and collaborations for 5 key classes).Develop Minimum Test Plan (establish testing scope, core test cases, and validation criteria). |
 
 
-## **I. SYLLABUS MAPPING**
+## **I. SYLLABUS MAPPING(Thùy Trâm)**
 
 | Core OOP Concept | Specific Class & Method Applied (To be detailed in Self-Explanation) | Design Purpose & Technical Solution |
 | :---- | :---- | :---- |
